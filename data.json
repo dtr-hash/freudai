@@ -1,0 +1,131 @@
+{
+  "questions": [
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    },
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    },
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    },
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    },
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    },
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    },
+    {
+      "path": "image-path.jpg",
+      "options": [
+        {
+          "label": "dog",
+          "values": ["openness"]
+        },
+        {
+          "label": "dog",
+          "values": ["conscientiousness"]
+        },
+        {
+          "label": "dog",
+          "values": ["extraversion"]
+        }
+      ]
+    }
+  ],
+
+  "optionsLabels": [
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ]
+}
