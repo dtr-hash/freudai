@@ -1,121 +1,155 @@
 {
   "questions": [
     {
-      "path": "image-path.jpg",
+      "path": "image-1.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "Bears dancing",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Bears sailing on a boat",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Bears rock climbing",
+          "values": []
         }
       ]
     },
     {
-      "path": "image-path.jpg",
+      "path": "image-2.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "Gardeners with trimmers",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Shrimps",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Sword",
+          "values": []
         }
       ]
     },
     {
-      "path": "image-path.jpg",
+      "path": "image-3.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "Dog with fluffy ears",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Wild boar",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Clown towering over ",
+          "values": []
         }
       ]
     },
     {
-      "path": "image-path.jpg",
+      "path": "image-4.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "Satan’s goats",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Flower bulb",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Brain scan",
+          "values": []
         }
       ]
     },
     {
-      "path": "image-path.jpg",
+      "path": "image-5.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "Bear carpet",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Space ship",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Metal guitar",
+          "values": []
         }
       ]
     },
     {
-      "path": "image-path.jpg",
+      "path": "image-6.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "People dancing",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Dogs with moustaches",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Snake mouth",
+          "values": []
         }
       ]
     },
     {
-      "path": "image-path.jpg",
+      "path": "image-7.jpg",
       "options": [
         {
-          "label": "dog",
-          "values": ["openness"]
+          "label": "Ants dancing",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["conscientiousness"]
+          "label": "Bow tie",
+          "values": []
         },
         {
-          "label": "dog",
-          "values": ["extraversion"]
+          "label": "Saxophones",
+          "values": []
+        }
+      ]
+    },
+    {
+      "path": "image-8.jpg",
+      "options": [
+        {
+          "label": "Crab",
+          "values": []
+        },
+        {
+          "label": "Spine",
+          "values": []
+        },
+        {
+          "label": "Sea shells",
+          "values": []
+        }
+      ]
+    },
+    {
+      "path": "image-9.jpg",
+      "options": [
+        {
+          "label": "Butterfly",
+          "values": []
+        },
+        {
+          "label": "Angels",
+          "values": []
+        },
+        {
+          "label": "Fox",
+          "values": []
         }
       ]
     }
