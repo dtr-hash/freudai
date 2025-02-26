@@ -5,15 +5,33 @@
       "options": [
         {
           "label": "Bears dancing",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Bears sailing on a boat",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Bears rock climbing",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -22,15 +40,33 @@
       "options": [
         {
           "label": "Gardeners with trimmers",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Shrimps",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Sword",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -39,15 +75,33 @@
       "options": [
         {
           "label": "Dog with fluffy ears",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Wild boar",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Clown towering over ",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -56,15 +110,33 @@
       "options": [
         {
           "label": "Satan’s goats",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Flower bulb",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Brain scan",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -73,15 +145,33 @@
       "options": [
         {
           "label": "Bear carpet",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Space ship",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Metal guitar",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -90,15 +180,33 @@
       "options": [
         {
           "label": "People dancing",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Dogs with moustaches",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Snake mouth",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -107,15 +215,33 @@
       "options": [
         {
           "label": "Ants dancing",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Bow tie",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Saxophones",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -124,15 +250,33 @@
       "options": [
         {
           "label": "Crab",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Spine",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Sea shells",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     },
@@ -141,15 +285,33 @@
       "options": [
         {
           "label": "Butterfly",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Angels",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         },
         {
           "label": "Fox",
-          "values": []
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
         }
       ]
     }
@@ -158,7 +320,7 @@
   "optionsLabels": [
     "openness",
     "conscientiousness",
-    "extraversion",
+    "extroversion",
     "agreeableness",
     "neuroticism"
   ]
