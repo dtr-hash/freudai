@@ -5,12 +5,9 @@ const Result = () => {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-6xl font-bold text-amber-500">FreudAI</h1>
-      <p className="text-lg">
-        Here are your personality test results
-        <br />
-        Based on your choices, we have analyzed your personality traits
-      </p>
+      <p className="text-lg">Your test results are as follows</p>
+
+
       <div className="mt-4">
         <Link to="/questions">Take the test again</Link>
       </div>
@@ -18,4 +15,4 @@ const Result = () => {
   );
 };
 
-export default Result; 
+export default Result;
