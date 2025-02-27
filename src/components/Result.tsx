@@ -19,9 +19,9 @@ const Result = () => {
       </p>
 
       <div className="flex flex-col md:flex-row gap-4">
-        <div className=" w-full md:max-w-1/2 grid gap-4">
+        <div className=" w-full md:max-w-1/2 grid gap-2 md:gap-4">
           {Object.entries(scores).map(([trait, score]) => (
-            <div key={trait} className="flex items-center py-2">
+            <div key={trait} className="flex items-center py-0 md:py-2">
               <span className="capitalize w-[180px]">{trait}</span>
               <span className="font-bold">{score}</span>
               <div className="flex gap-0_5 ml-4">

@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="flex flex-col gap-8">
-      <h1 className="text-[36px] font-bold mb-4">FreudAI</h1>
+      <h1 className="text-[36px] font-bold md:mb-8">FreudAI</h1>
       <BrowserRouter>
         <ScoreContext.Provider value={{ scores, setScores }}>
           <Routes>
