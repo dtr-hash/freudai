@@ -24,7 +24,7 @@ const Result = () => {
             <div key={trait} className="flex items-center py-0 md:py-2">
               <span className="capitalize w-[180px]">{trait}</span>
               <span className="font-bold">{score}</span>
-              <div className="flex gap-0_5 ml-4">
+              <div className="flex gap-1 ml-4">
                 {[...Array(score)].map((_, i) => (
                   <div
                     key={i}
