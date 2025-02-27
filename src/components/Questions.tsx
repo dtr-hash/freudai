@@ -14,10 +14,11 @@ type Question = {
   options: Option[];
 };
 
-
 const Questions = () => {
   const [count, setCount] = useState(0);
-  const [randomizedQuestions, setRandomizedQuestions] = useState<Question[]>([]);
+  const [randomizedQuestions, setRandomizedQuestions] = useState<Question[]>(
+    []
+  );
   const navigate = useNavigate();
   const { scores, setScores } = useContext(ScoreContext);
 
@@ -39,7 +40,7 @@ const Questions = () => {
   const handleNext = (selectedValues: string[]) => {
     // Update scores for each personality trait
     const newScores = { ...scores };
-    selectedValues.forEach(value => {
+    selectedValues.forEach((value) => {
       newScores[value] = (newScores[value] || 0) + 1;
     });
     setScores(newScores);
@@ -52,10 +53,14 @@ const Questions = () => {
     }
   };
 
+  
+
   return (
     <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-12">
       <div className="flex flex-col gap-4 h-full w-full md:max-w-1/2">
-        <p className="mb-4 text-lg">Select an option that fits most what you see ({count + 1} / 7)</p>
+        <p className="mb-4 text-lg">
+          Select an option that fits most what you see ({count + 1} / 7)
+        </p>
         <div className="flex flex-col gap-4">
           {currentQuestion.options.map((option, index) => (
             <Button key={index} onClick={() => handleNext(option.values)}>
