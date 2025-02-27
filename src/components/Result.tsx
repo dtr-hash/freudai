@@ -3,9 +3,13 @@ import { Link } from "react-router";
 import { ScoreContext } from "@/App";
 
 const Result = () => {
-  const { scores } = useContext(ScoreContext);
+  const { scores, setScores } = useContext(ScoreContext);
   
   console.log('Personality scores:', scores);
+
+  const handleReset = () => {
+    setScores({});
+  };
 
   return (
     <div className="flex flex-col gap-6">
@@ -26,7 +30,9 @@ const Result = () => {
       </div>
 
       <div className="mt-4">
-        <Link to="/questions">Take the test again</Link>
+        <Link to="/questions" onClick={handleReset}>
+          Take the test again
+        </Link>
       </div>
     </div>
   );
