@@ -14,10 +14,6 @@ type Question = {
   options: Option[];
 };
 
-type Data = {
-  questions: Question[];
-  optionsLabels: string[];
-};
 
 const Questions = () => {
   const [count, setCount] = useState(0);
