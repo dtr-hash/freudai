@@ -258,6 +258,91 @@
           ]
         }
       ]
+    },
+    {
+      "path": "image-10.jpg",
+      "options": [
+        {
+          "label": "Human ears",
+          "values": [
+            "openness",
+            "conscientiousness",
+            "agreeableness"
+          ]
+        },
+        {
+          "label": "Peppers",
+          "values": [
+            "extroversion",
+            "neuroticism"
+          ]
+        },
+        {
+          "label": "Cabbage",
+          "values": [
+            "conscientiousness",
+            "neuroticism"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "image-11.jpg",
+      "options": [
+        {
+          "label": "Fireworks",
+          "values": [
+            "openness",
+            "extroversion",
+            "neuroticism"
+          ]
+        },
+        {
+          "label": "Petals",
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "agreeableness"
+          ]
+        },
+        {
+          "label": "Squirrel head",
+          "values": [
+            "extroversion",
+            "agreeableness",
+            "neuroticism"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "image-12.jpg",
+      "options": [
+        {
+          "label": "Conch sea shells",
+          "values": [
+            "conscientiousness"
+          ]
+        },
+        {
+          "label": "Angel wings",
+          "values": [
+            "openness",
+            "conscientiousness",
+            "agreeableness"
+          ]
+        },
+        {
+          "label": "Aliens",
+          "values": [
+            "openness",
+            "conscientiousness",
+            "extroversion",
+            "neuroticism"
+          ]
+        }
+      ]
     }
   ],
 
