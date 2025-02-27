@@ -1,4 +1,4 @@
-import { useSearchParams, Link } from "react-router";
+import { Link } from "react-router";
 
 const Home = () => {
   console.log("Home");
