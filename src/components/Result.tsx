@@ -18,23 +18,26 @@ const Result = () => {
         Based on your choices, we have analyzed your personality traits
       </p>
 
-      <div className="grid gap-4">
-        {Object.entries(scores).map(([trait, score]) => (
-          <div key={trait} className="flex items-center py-2">
-            <span className="capitalize w-[200px]">{trait}</span>
-            <span className="font-bold">{score}</span>
-            <div className="flex gap-1 ml-4">
-              {[...Array(score)].map((_, i) => (
-                <div 
-                  key={i} 
-                  className="w-4 h-4 rounded-full bg-black bg-[url('/freud.png')] bg-cover bg-center"
-                />
-              ))}
+      <div className="flex flex-row gap-4">
+        <div className=" w-1/2 grid gap-4">
+          {Object.entries(scores).map(([trait, score]) => (
+            <div key={trait} className="flex items-center py-2">
+              <span className="capitalize w-[200px]">{trait}</span>
+              <span className="font-bold">{score}</span>
+              <div className="flex gap-1 ml-4">
+                {[...Array(score)].map((_, i) => (
+                  <div
+                    key={i}
+                    className="w-4 h-4 rounded-full bg-black bg-[url('/freud.png')] bg-cover bg-center"
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
+        <img src="/success.png" alt="" className="w-1/2 max-w-[400px] mx-auto" />
+      </div>
       <div className="mt-4">
         <Link to="/questions" onClick={handleReset}>
           <div className="p-4 w-[200px] border border-gray-800 text-center">
