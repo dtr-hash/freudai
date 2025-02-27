@@ -8,8 +8,10 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem 0;
+  height: 100%;
 }
+
+body { height: 100%; padding: 24px; overflow: scroll;}
 
 @keyframes logo-spin {
   from {
@@ -25,6 +27,15 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+
+html {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 
 .card {
   padding: 2em;

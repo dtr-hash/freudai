@@ -19,8 +19,8 @@ function App() {
   const [scores, setScores] = useState<Record<string, number>>({});
 
   return (
-    <div className="flex flex-col h-[100vh] gap-8">
-      <h1 className="text-[36px] font-bold mb-8">FreudAI</h1>
+    <div className="flex flex-col gap-8">
+      <h1 className="text-[36px] font-bold mb-4">FreudAI</h1>
       <BrowserRouter>
         <ScoreContext.Provider value={{ scores, setScores }}>
           <Routes>

@@ -44,6 +44,7 @@ const Result = () => {
             Take the test again
           </div>
         </Link>
+        <div className="h-10"></div>
       </div>
     </div>
   );
