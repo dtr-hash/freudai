@@ -53,8 +53,8 @@ const Questions = () => {
   };
 
   return (
-    <div className="flex gap-12">
-      <div className="flex flex-col gap-4 h-full w-1/2">
+    <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-12">
+      <div className="flex flex-col gap-4 h-full w-full md:max-w-1/2">
         <p className="mb-4 text-lg">Select an option that fits most what you see ({count + 1} / 7)</p>
         <div className="flex flex-col gap-4">
           {currentQuestion.options.map((option, index) => (
@@ -67,7 +67,7 @@ const Questions = () => {
       <img
         src={`/${currentQuestion.path}`}
         alt="Personality test image"
-        className="w-1/2 rounded-lg shadow-lg"
+        className="w-full md:max-w-1/2"
       />
     </div>
   );
