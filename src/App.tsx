@@ -1,6 +1,6 @@
 import "./App.css";
 import {createContext, useState} from "react";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router";
 import Home from "@/components/Home";
 import Questions from "@/components/Questions";
 import Result from "@/components/Result";
@@ -15,14 +15,33 @@ export const ScoreContext = createContext<ScoreContextType>({
   setScores: () => {},
 });
 
+// Create a separate header component to use navigation
+const Header = ({ setScores }: { setScores: (scores: Record<string, number>) => void }) => {
+  const navigate = useNavigate();
+
+  const handleTitleClick = () => {
+    setScores({});
+    navigate('/');
+  };
+
+  return (
+    <h1 
+      className="text-[36px] font-bold md:mb-8 cursor-pointer" 
+      onClick={handleTitleClick}
+    >
+      FreudAI
+    </h1>
+  );
+};
+
 function App() {
   const [scores, setScores] = useState<Record<string, number>>({});
 
   return (
     <div className="flex flex-col gap-8">
-      <h1 className="text-[36px] font-bold md:mb-8">FreudAI</h1>
       <BrowserRouter>
         <ScoreContext.Provider value={{ scores, setScores }}>
+          <Header setScores={setScores} />
           <Routes>
             <Route index element={<Home />} />
             <Route path="questions" element={<Questions />} />
