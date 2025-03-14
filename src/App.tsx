@@ -27,7 +27,7 @@ const Header = ({ setScores }: { setScores: (scores: Record<string, number>) => 
 
   return (
     <h1 
-      className="text-[36px] font-bold md:mb-8 cursor-pointer" 
+      className="text-[36px] font-bold mb-6 cursor-pointer" 
       onClick={handleTitleClick}
     >
       FreudAI
@@ -38,6 +38,7 @@ const Header = ({ setScores }: { setScores: (scores: Record<string, number>) => 
 const PageWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <motion.div
+      className="flex-1 flex flex-col"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
@@ -53,7 +54,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="min-h-full flex flex-col">
       <ScoreContext.Provider value={{ scores, setScores }}>
         <Header setScores={setScores} />
         <AnimatePresence mode="wait">

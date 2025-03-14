@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 import data from "../../data.json";
 import { ScoreContext } from "@/App";
 import { motion, AnimatePresence } from "framer-motion";
+import LoadingTransition from "./LoadingTransition";
 
 type Option = {
   label: string;
@@ -19,6 +20,7 @@ const Questions = () => {
   const [count, setCount] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [showLoadingTransition, setShowLoadingTransition] = useState(false);
   const [randomizedQuestions, setRandomizedQuestions] = useState<Question[]>([]);
   const navigate = useNavigate();
   const { scores, setScores } = useContext(ScoreContext);
@@ -103,7 +105,11 @@ const Questions = () => {
 
     // Navigate or go to next question
     if (count + 1 >= randomizedQuestions.length) {
-      navigate("/result");
+      setShowLoadingTransition(true);
+      // Add a delay before navigating to show the loading animation
+      setTimeout(() => {
+        navigate("/result");
+      }, 3000);
     } else {
       setCount((count) => count + 1);
     }
@@ -111,6 +117,10 @@ const Questions = () => {
 
   return (
     <>
+      <AnimatePresence>
+        {showLoadingTransition && <LoadingTransition />}
+      </AnimatePresence>
+      
       <div className="flex flex-col-reverse md:flex-row gap-8">
         <div className="flex flex-col gap-6 h-full w-full md:max-w-1/2">
           <motion.div
