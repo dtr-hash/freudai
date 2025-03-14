@@ -179,3 +179,7 @@ html {
     @apply bg-background text-foreground;
   }
 }
+
+
+a { font-size:1.5rem; font-weight: 500;
+color: #154dd1;}

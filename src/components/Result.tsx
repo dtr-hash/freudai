@@ -22,13 +22,13 @@ const Result = () => {
         <div className=" w-full md:max-w-1/2 grid gap-2 md:gap-4">
           {Object.entries(scores).map(([trait, score]) => (
             <div key={trait} className="flex items-center py-0 md:py-2">
-              <span className="capitalize w-[180px]">{trait}</span>
+              <span className="capitalize w-[180px] text-md">{trait}</span>
               <span className="font-bold">{score}</span>
               <div className="flex gap-1 ml-4">
                 {[...Array(score)].map((_, i) => (
                   <div
                     key={i}
-                    className="w-3 h-3 rounded-full bg-black bg-[url('/freud.png')] bg-cover bg-center"
+                    className="w-5 h-5 rounded-full bg-black bg-[url('/freud.png')] bg-cover bg-center"
                   />
                 ))}
               </div>
