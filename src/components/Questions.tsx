@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router";
 import data from "../../data.json";
 import { ScoreContext } from "@/App";
+import { motion, AnimatePresence } from "framer-motion";
 
 type Option = {
   label: string;
@@ -53,27 +54,41 @@ const Questions = () => {
     }
   };
 
-  
-
   return (
     <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-12">
       <div className="flex flex-col gap-4 h-full w-full md:max-w-1/2">
         <p className="mb-4 text-lg">
           Select an option that fits most what you see ({count + 1} / 7)
         </p>
-        <div className="flex flex-col gap-4">
-          {currentQuestion.options.map((option, index) => (
-            <Button key={index} onClick={() => handleNext(option.values)}>
-              {option.label}
-            </Button>
-          ))}
-        </div>
+        <AnimatePresence mode="wait">
+          <motion.div 
+            key={count}
+            className="flex flex-col gap-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+          >
+            {currentQuestion.options.map((option, index) => (
+              <Button key={index} onClick={() => handleNext(option.values)}>
+                {option.label}
+              </Button>
+            ))}
+          </motion.div>
+        </AnimatePresence>
       </div>
-      <img
-        src={`/${currentQuestion.path}`}
-        alt="Personality test image"
-        className="w-full md:max-w-1/2"
-      />
+      <AnimatePresence mode="wait">
+        <motion.img
+          key={count}
+          src={`/${currentQuestion.path}`}
+          alt="Personality test image"
+          className="w-full md:max-w-1/2"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.3 }}
+        />
+      </AnimatePresence>
     </div>
   );
 };
